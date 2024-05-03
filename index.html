@@ -8,13 +8,12 @@
   </head>
   <body>
     <style>
-
       @font-face {
         font-family: monogram;
         src: url(monogram.ttf);
       }
 
-      body{
+      body {
         font-family: monogram, monospace;
         font-size: 2rem;
         overflow: hidden;
@@ -25,7 +24,7 @@
         height: 100%;
         position: relative;
       }
-      
+
       #textbox {
         position: absolute;
         left: 10%;
@@ -43,6 +42,7 @@
         align-items: flex-start;
         word-spacing: 0.2rem;
         filter: drop-shadow(0 0 0.75rem rgb(112, 112, 112));
+        /* overflow: auto; */
       }
 
       .ui-text {
@@ -51,7 +51,7 @@
       }
 
       .ui-close-btn {
-        font-family: inherit;
+        font-family: monogram, monospace;
         border-style: none;
         border-radius: 3px;
         padding: 1rem;
@@ -59,10 +59,9 @@
       }
 
       .btn-container {
-        align-items: flex-end;
+        align-self: flex-end;
         margin-top: 1rem;
       }
-
 
       .note {
         position: absolute;
@@ -71,21 +70,21 @@
         display: flex;
         flex-direction: column;
         color: rgb(238, 238, 238);
-        user-select: none;
       }
-
-
     </style>
     <div id="app">
-      <div id="ui"></div>
-        <p class="note">Tap/Click around to move </p>
-        <div id = "textbox-container" style ="display: none">
-          <div id="textbox"> </div>
-            <p id="dialogue" class="ui-text"> </p>
+      <div>
+        <p class="note">Tap/Click around to move</p>
+
+        <div id="textbox-container" style="display: none">
+          <div id="textbox">
+            <p id="dialogue" class="ui-text"></p>
             <div class="btn-container">
-                <button id="close" class="ui-close-btn">Close</button>
+              <button id="close" class="ui-close-btn">Close</button>
             </div>
+          </div>
         </div>
+      </div>
       <canvas id="game"></canvas>
     </div>
     <script type="module" src="src/main.js"></script>

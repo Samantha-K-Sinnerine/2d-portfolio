@@ -138,8 +138,6 @@ k.scene("main", async () => {
             player.direction = "left";
             return;
         }
-
-
     });
 });
 
