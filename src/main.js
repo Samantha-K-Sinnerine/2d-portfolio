@@ -1,6 +1,7 @@
 import { scaleFactor } from "./constants";
 import { k } from "./kaboomCtx";
 import { displayDialogue, setCamScale } from "./utils";
+import { dialogueData } from "./constants";
 
 k.loadSprite("spritesheet", "./spritesheet.png", {
     sliceX: 39, //length of image divided by size of frame = # of frams
@@ -64,7 +65,7 @@ k.scene("main", async () => {
                 if (boundary.name) {
                     player.onCollide(boundary.name, () => {
                         player.isInDialog = true;
-                        displayDialogue("TO DO", () => player.isInDialog = false);
+                        displayDialogue(dialogueData[boundary.name], () => player.isInDialog = false);
                     });
                 }
             }

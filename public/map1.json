@@ -203,7 +203,7 @@
                 {
                  "height":22.9671811981763,
                  "id":23,
-                 "name":"sofa-table",
+                 "name":"sofa_table",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -225,7 +225,7 @@
                 {
                  "height":14.117527173913,
                  "id":30,
-                 "name":"cs-degree",
+                 "name":"cs_degree",
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -332,6 +332,17 @@
                  "width":0,
                  "x":71.2227761216463,
                  "y":121.341466469601
+                }, 
+                {
+                 "height":16.9302838247451,
+                 "id":54,
+                 "name":"exit",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16.1366767704602,
+                 "x":32.0088178561587,
+                 "y":111.369523284651
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -340,7 +351,7 @@
          "y":0
         }],
  "nextlayerid":7,
- "nextobjectid":54,
+ "nextobjectid":55,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
