@@ -23,7 +23,7 @@ k.scene("main", async () => {
     const mapData = await (await fetch("./map1.json")).json();
     const layers = mapData.layers;
 
-    const map = k.make([
+    const map = k.add([
         k.sprite("map1"),
         //position game object will display on screen
         k.pos(0),
