@@ -17,6 +17,7 @@ k.loadSprite("spritesheet", "./spritesheet.png", {
 });
 
 k.loadSprite("map1", "./map1.png");
+k.loadSprite("map2", "./map2.png");
 
 k.setBackground(k.Color.fromHex("#511047"));
 
