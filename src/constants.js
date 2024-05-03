@@ -2,7 +2,7 @@ export const scaleFactor = 4;
 
 export const dialogueData = {
     pc: "This is my pc where I specialize in  Python, Java, React.js and Node.js. A few frameworks and backend tools I've used in the past are Flask, Docker, PostgreSQL and MangoDB. Currently I'm learning full-stack development using Java Spring Boot, React, and MongoDB. <br> <br> Explore my <a href='https://github.com/Samantha-K-Sinnerine'>GitHub</a> profile for a closer look.",
-    sofa_table: "This is my sofa, a place where I relax and unwind by watching my favorite k-dramas. ",
+    sofa_table: "This is my sofa, a place where I relax and unwind by watching my favorite k-dramas and playing Animal Crossing on my Nintendo Switch OLED. ",
     table: "This sturdy table has witnessed countless study sessions and collaborations, fostering my skills in data structures, algorithms, and system design.",
     library: "This is my library often a spot for me to relax with psychology books and non-fiction reads",
     cs_degree: "My CS degree represents years of dedication and learning, showcasing my readiness to contribute meaningfully to the tech industry.",
